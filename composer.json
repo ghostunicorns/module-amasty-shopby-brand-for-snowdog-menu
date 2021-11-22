@@ -1,0 +1,33 @@
+{
+    "name": "ghostunicorns/module-amasty-shopby-brand-for-snowdog-menu",
+    "description": "This module create a new menu type into Snowdog Menu that shows Amasty Shop By Brand Popup",
+    "require": {
+        "snowdog/module-menu": "*"
+    },
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Danilo Argentiero",
+            "email": "argentiero.danilo@gmail.com",
+            "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+            "role": "Software Architect"
+        },
+        {
+            "name": "Riccardo Ugolini",
+            "email": "riccardo.ugolini@gmail.com",
+            "homepage": "https://www.linkedin.com/in/riccardougolini/",
+            "role": "Software Architect"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GhostUnicorns\\AmastyShopByBrandForSnowdogMenu\\": ""
+        }
+    }
+}

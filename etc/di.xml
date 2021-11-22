@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright © Ghost Unicorns snc. All rights reserved.
+  ~ See LICENSE for license details.
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Snowdog\Menu\Model\NodeTypeProvider">
+        <arguments>
+            <argument name="providers" xsi:type="array">
+                <item name="brand" xsi:type="object">GhostUnicorns\AmastyShopByBrandForSnowdogMenu\Block\NodeType\Brand</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Snowdog\Menu\Model\VueProvider">
+        <arguments>
+            <argument name="components" xsi:type="array">
+                <item name="brand" xsi:type="string">brand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
