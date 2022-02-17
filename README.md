@@ -1,6 +1,6 @@
 # Description
 
-This module allows you to analyze all the webapi rest done call toward your magento.
+This module allows you to integrate the Amasty Shop By Brand menu into the Snowdog Menu
 
 # Install
 
